@@ -1,5 +1,5 @@
 # 得到最新的 golang docker 镜像
-FROM golang:latest
+FROM daocloud.io/library/golang:latest
 # 在容器内部创建一个目录来存储我们的 web 应用，接着使它成为工作目录。
 RUN mkdir -p /go/src/web-app
 WORKDIR /go/src/web-app
